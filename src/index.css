@@ -1,9 +1,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --color-green-60: #caff33;
+  --color-green-65: #d1ff4c;
+  --color-green-70: #d8ff66;
+  --color-green-80: #e5ff99;
+  --color-green-90: #f2ffcc;
+  --color-green-95: #f8ffe5;
+  --color-green-97: #fbfff0;
+  --color-green-99: #fefffa;
+  --color-shades-90: #e4e4e7;
+  --color-shades-95: #f1f1f3;
+  --color-shades-97: #f7f7f8;
+  --color-shades-99: #fcfcfd;
+  --color-grey-10: #191919;
+  --color-grey-11: #1c1c1c;
+  --color-grey-15: #262626;
+  --color-grey-20: #333333;
+  --color-grey-30: #4c4c4d;
+  --color-grey-35: #59595a;
+  --color-grey-40: #656567;
+  --color-grey-60: #98989a;
+  --color-grey-70: #b3b3b3;
+  --color-grey-75: #bfbfbf;
+}
+
 :root {
   font-family: "Lexend", sans-serif;
 }
 body {
   scroll-behavior: smooth;
+  color: white;
+  background-color: var(--color-grey-10);
+}
+
+@layer base {
+  h1 {
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 45px */
+  }
+  h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+  }
+  h5 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+  }
+  h6 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+  }
+  p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+    color: var(--color-grey-70);
+  }
+  li {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  button {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    background-color: var(--color-green-60);
+    color: var(--color-grey-11);
+  }
 }
