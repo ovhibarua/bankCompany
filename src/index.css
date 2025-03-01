@@ -28,6 +28,7 @@
 
 :root {
   font-family: "Lexend", sans-serif;
+  overflow-x: hidden;
 }
 body {
   scroll-behavior: smooth;
