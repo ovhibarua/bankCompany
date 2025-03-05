@@ -91,7 +91,14 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 27px */
-    background-color: var(--color-green-60);
+    /* background-color: var(--color-green-60); */
     color: var(--color-grey-11);
   }
+}
+.bgClr {
+  background: linear-gradient(215deg, rgba(26, 26, 26, 0) 0%, #1a1a1a 39.72%),
+    url(<path-to-image>) lightgray 0% 0% / 62.46418356895447px
+      62.46418356895447px repeat,
+    #1a1a1a;
+  background-blend-mode: normal, screen, normal;
 }

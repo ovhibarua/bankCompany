@@ -1,11 +1,16 @@
 import React from "react";
-
-const Button = ({ addText, addClass }) => {
+import { motion } from "motion/react";
+function Button({ addText, addClass, clickFunc }) {
   return (
-    <button className={`px-8 py-3.5 rounded-full cursor-pointer ${addClass}`}>
+    <motion.button
+      onClick={clickFunc}
+      initial={{ scale: 1 }}
+      whileTap={{ scale: 0.9 }}
+      className={`py-3.5 rounded-full cursor-pointer ${addClass}`}
+    >
       {addText}
-    </button>
+    </motion.button>
   );
-};
+}
 
 export default Button;

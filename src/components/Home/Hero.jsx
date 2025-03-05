@@ -2,6 +2,7 @@ import React from "react";
 import Image from "../Image";
 import check from "../../../public/assets/checkIcon.png";
 import Button from "../Button";
+import { motion } from "motion/react";
 
 const Hero = () => {
   return (
@@ -14,7 +15,14 @@ const Hero = () => {
       </div>
       <h2 className="mb-3.5">
         Welcome to YourBank Empowering Your{" "}
-        <span className="text-green-60">Financial Journey</span>
+        <motion.span
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 2, delay: 4 }}
+          className="text-green-60"
+        >
+          Financial Journey
+        </motion.span>
       </h2>
       <p className="mb-12">
         At YourBank, our mission is to provide comprehensive banking solutions
@@ -22,7 +30,7 @@ const Hero = () => {
         goals. We are committed to delivering personalized and innovative
         services that prioritize our customers' needs.
       </p>
-      <Button addText={`Open Account`} />
+      <Button addClass={`px-8 bg-green-60`} addText={`Open Account`} />
     </div>
   );
 };

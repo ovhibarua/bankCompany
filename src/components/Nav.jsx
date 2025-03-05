@@ -21,7 +21,7 @@ const Nav = () => {
         </div>
         <div className="flex items-center gap-5">
           <span className="cursor-pointer">Sign Up</span>
-          <Button addText={`Login`} />
+          <Button addClass={`px-8 bg-green-60`} addText={`Login`} />
         </div>
         <div className="fixed top-0 left-0 -z-50">
           <Image addImg={cornerImg} />
