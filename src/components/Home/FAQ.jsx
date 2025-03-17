@@ -39,14 +39,14 @@ const faq = [
 
 const FAQ = () => {
   return (
-    <section className="py-24">
+    <section className="py-16 lg:py-24">
       <SectionTitle
         addClass={`mb-20`}
-        title={`Frequently`}
-        titleClr={`Asked Questions`}
+        title={`Asked`}
+        titleClr={`Questions`}
         text={`Still you have any questions? Contact our Team via support@yourbank.com`}
       />
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-8">
         {faq.map((item, id) => (
           <FaqContent
             key={id}

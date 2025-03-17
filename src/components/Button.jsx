@@ -6,7 +6,7 @@ function Button({ addText, addClass, clickFunc }) {
       onClick={clickFunc}
       initial={{ scale: 1 }}
       whileTap={{ scale: 0.9 }}
-      className={`py-3.5 rounded-full cursor-pointer ${addClass}`}
+      className={`py-2.5 md:py-3.5 rounded-full cursor-pointer ${addClass}`}
     >
       {addText}
     </motion.button>

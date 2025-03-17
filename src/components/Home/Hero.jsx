@@ -6,14 +6,14 @@ import { motion } from "motion/react";
 
 const Hero = () => {
   return (
-    <div className="w-1/2">
+    <div className="w-full lg:w-1/2 flex flex-col items-center md:items-start">
       <div className="flex items-center gap-1.5 pl-3 pr-6 py-2.5 rounded-full mb-4 bg-grey-15 w-fit">
         <div>
           <Image addImg={check} />
         </div>
         <p>No LLC Required, No Credit Check.</p>
       </div>
-      <h2 className="mb-3.5">
+      <h2 className="mb-3.5 text-center md:text-left">
         Welcome to YourBank Empowering Your{" "}
         <motion.span
           initial={{ opacity: 0 }}
@@ -24,7 +24,7 @@ const Hero = () => {
           Financial Journey
         </motion.span>
       </h2>
-      <p className="mb-12">
+      <p className="mb-12 text-center md:text-left">
         At YourBank, our mission is to provide comprehensive banking solutions
         that empower individuals and businesses to achieve their financial
         goals. We are committed to delivering personalized and innovative

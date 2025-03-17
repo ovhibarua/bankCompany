@@ -103,7 +103,7 @@ const Features = () => {
     setTab3(false);
   };
   return (
-    <section className="py-24">
+    <section className="py-16 lg:py-24">
       <SectionTitle
         addClass={`mb-20`}
         title={`Our`}
@@ -115,7 +115,7 @@ const Features = () => {
           addText={`Online Banking`}
           addClass={`bg-grey-11 border-grey-15 border-[1px] ${
             tab ? "text-white" : "text-green-60"
-          } px-6 w-fit`}
+          } px-4 md:px-6 w-fit`}
           clickFunc={toggle}
         />
         <Button
@@ -133,7 +133,7 @@ const Features = () => {
           clickFunc={toggle3}
         />
       </div>
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-8">
         {getTab &&
           data[0].map((item, id) => (
             <FeaturesBox

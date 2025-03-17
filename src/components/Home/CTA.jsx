@@ -4,12 +4,12 @@ import leftDesign from "../../../public/assets/case/left_design.png";
 import Button from "../Button";
 const CTA = () => {
   return (
-    <section className="py-24">
-      <div className="p-16 border-[1px] bg-grey-11 border-grey-15 rounded-3xl relative z-10 flex items-center justify-between">
+    <section className="py-16 lg:py-24">
+      <div className="p-8 lg:p-14 xl:px-16 border-[1px] bg-grey-11 border-grey-15 rounded-3xl relative z-10 flex flex-col lg:flex-row gap-6 lg:gap-0 items-end lg:items-center justify-between">
         <div className="absolute top-0 left-0 -z-10">
           <Image addImg={leftDesign} />
         </div>
-        <div className="w-[70%]">
+        <div className="w-full lg:w-[70%]">
           <h3 className="mb-5 text-4xl">
             Start your financial journey with{" "}
             <span className="text-green-60">YourBank today!</span>

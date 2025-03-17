@@ -9,7 +9,7 @@ import CTA from "./Home/CTA";
 
 const Container = () => {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto px-4 xl:px-0">
       <Header />
       <Product />
       <Cases />

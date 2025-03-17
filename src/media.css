@@ -71,4 +71,7 @@
   }
 }
 @media screen and (max-width: 640px) {
+  button {
+    font-size: 12px;
+  }
 }

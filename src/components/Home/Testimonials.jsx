@@ -38,9 +38,9 @@ const comentsData = [
 
 const Testimonials = () => {
   return (
-    <section className="py-24">
+    <section className="py-16 lg:py-24">
       <SectionTitle
-        addClass={`mb-28`}
+        addClass={`mb-20 lg:mb-28`}
         title={`Our`}
         titleClr={`Testimonials`}
         text={`Discover how YourBank has transformed lives with innovative digital solutions and personalized customer service. See why our clients trust us for a secure and prosperous financial journey`}
@@ -52,8 +52,20 @@ const Testimonials = () => {
         }}
         loop={true}
         speed={2000}
-        slidesPerView={3}
-        spaceBetween={70}
+        slidesPerView={1}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            centeredSlides: false,
+            spaceBetween: 40,
+          },
+          1280: {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 70,
+          },
+        }}
+        spaceBetween={20}
         centeredSlides={true}
         modules={[Autoplay]}
         className="mySwiper"
