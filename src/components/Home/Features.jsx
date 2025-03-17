@@ -2,44 +2,45 @@ import React, { useState } from "react";
 import SectionTitle from "../SectionTitle";
 import Button from "../Button";
 import FeaturesBox from "./FeaturesBox";
+import arrow from "../../../public/assets/linkArrow.png";
 const data = [
   [
     {
       title: `24/7 Account Access`,
       con: `Enjoy the convenience of accessing your accounts anytime, anywhere through our secure online banking platform. Check balances, transfer funds, and pay bills with ease.`,
-      img: "/public/assets/linkArrow.png",
+      img: arrow,
     },
     {
       title: `Mobile Banking App`,
       con: `Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.`,
-      img: "/public/assets/linkArrow.png",
+      img: arrow,
     },
     {
       title: `Secure Transactions`,
       con: `Rest assured knowing that your transactions are protected by industry-leading security measures. We employ encryption and multi-factor authentication to safeguard your financial information.`,
-      img: "/public/assets/linkArrow.png",
+      img: arrow,
     },
     {
       title: `Bill Pay and Transfers`,
       con: `Save time and avoid late fees with our convenient bill pay service. Set up recurring payments or make one-time transfers between your accounts with just a few clicks.`,
-      img: "/public/assets/linkArrow.png",
+      img: arrow,
     },
   ],
   [
     {
       title: `Checking Accounts`,
       con: `Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden`,
-      img: "/public/assets/linkArrow.png",
+      img: arrow,
     },
     {
       title: `Savings Accounts`,
       con: `Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.`,
-      img: "/public/assets/linkArrow.png",
+      img: arrow,
     },
     {
       title: `Loans and Mortgages`,
       con: `Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos`,
-      img: "/public/assets/linkArrow.png",
+      img: arrow,
     },
     {
       title: `Saving for the Future`,

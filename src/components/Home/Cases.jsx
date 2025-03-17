@@ -2,14 +2,14 @@ import React from "react";
 import SectionTitle from "../SectionTitle";
 import CaseItem from "./CaseItem";
 import CaseContent from "./CaseContent";
-import containerImg from "/public/assets/case/IconContainer.png";
-import containerImg2 from "/public/assets/case/IconContainer2.png";
-import containerImg3 from "/public/assets/case/IconContainer3.png";
-import containerImg4 from "/public/assets/case/IconContainer4.png";
-import containerImg5 from "/public/assets/case/IconContainer5.png";
-import containerImg6 from "/public/assets/case/IconContainer6.png";
-import containerImg7 from "/public/assets/case/IconContainer7.png";
-import containerImg8 from "/public/assets/case/IconContainer8.png";
+import containerImg from "../../../public/assets/case/IconContainer.png";
+import containerImg2 from "../../../public/assets/case/Icon Container2.png";
+import containerImg3 from "../../../public/assets/case/IconContainer3.png";
+import containerImg4 from "../../../public/assets/case/IconContainer4.png";
+import containerImg5 from "../../../public/assets/case/IconContainer5.png";
+import containerImg6 from "../../../public/assets/case/IconContainer6.png";
+import containerImg7 from "../../../public/assets/case/IconContainer7.png";
+import containerImg8 from "../../../public/assets/case/IconContainer8.png";
 const casedetails = [
   {
     img: containerImg,
