@@ -7,66 +7,66 @@ const data = [
     {
       title: `24/7 Account Access`,
       con: `Enjoy the convenience of accessing your accounts anytime, anywhere through our secure online banking platform. Check balances, transfer funds, and pay bills with ease.`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Mobile Banking App`,
       con: `Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Secure Transactions`,
       con: `Rest assured knowing that your transactions are protected by industry-leading security measures. We employ encryption and multi-factor authentication to safeguard your financial information.`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Bill Pay and Transfers`,
       con: `Save time and avoid late fees with our convenient bill pay service. Set up recurring payments or make one-time transfers between your accounts with just a few clicks.`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
   ],
   [
     {
       title: `Checking Accounts`,
       con: `Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Savings Accounts`,
       con: `Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Loans and Mortgages`,
       con: `Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Saving for the Future`,
       con: `A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
   ],
   [
     {
       title: `Startups and Entrepreneurs`,
       con: `The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Payment Solutions`,
       con: `One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly,`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Cash Flow Management`,
       con: `Rest assured knowing that your transactions are protected by industry-leading security measures. We employ encryption and multi-factor authentication to safeguard your financial information.`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
     {
       title: `Business Expansion`,
       con: `The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab`,
-      img: "../../../public/assets/linkArrow.png",
+      img: "/public/assets/linkArrow.png",
     },
   ],
 ];

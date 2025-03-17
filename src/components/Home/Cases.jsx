@@ -4,37 +4,37 @@ import CaseItem from "./CaseItem";
 import CaseContent from "./CaseContent";
 const casedetails = [
   {
-    img: "../../../public/assets/case/IconContainer.png",
+    img: "/public/assets/case/IconContainer.png",
     title: `Managing Personal Finances`,
   },
   {
-    img: "../../../public/assets/case/Icon Container2.png",
+    img: "/public/assets/case/Icon Container2.png",
     title: `Saving for the Future`,
   },
   {
-    img: "../../../public/assets/case/IconContainer3.png",
+    img: "/public/assets/case/IconContainer3.png",
     title: `Homeownership`,
   },
   {
-    img: "../../../public/assets/case/IconContainer4.png",
+    img: "/public/assets/case/IconContainer4.png",
     title: `Education Funding`,
   },
 ];
 const casedetails2 = [
   {
-    img: "../../../public/assets/case/IconContainer5.png",
+    img: "/public/assets/case/IconContainer5.png",
     title: `Startups and Entrepreneurs`,
   },
   {
-    img: "../../../public/assets/case/IconContainer6.png",
+    img: "/public/assets/case/IconContainer6.png",
     title: `Cash Flow Management`,
   },
   {
-    img: "../../../public/assets/case/IconContainer7.png",
+    img: "/public/assets/case/IconContainer7.png",
     title: `Business Expansion`,
   },
   {
-    img: "../../../public/assets/case/IconContainer8.png",
+    img: "/public/assets/case/IconContainer8.png",
     title: `Payment Solutions`,
   },
 ];

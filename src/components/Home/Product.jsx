@@ -1,9 +1,9 @@
 import React from "react";
 import SectionTitle from "../SectionTitle";
 import TabButton from "../TabButton";
-import bag from "../../../public/assets/bag.png";
-import download from "../../../public/assets/download.png";
-import cam from "../../../public/assets/cam.png";
+import bag from "/public/assets/bag.png";
+import download from "/public/assets/download.png";
+import cam from "/public/assets/cam.png";
 import Image from "../Image";
 import { motion } from "motion/react";
 
