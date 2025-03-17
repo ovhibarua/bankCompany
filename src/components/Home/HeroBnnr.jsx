@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import subContainer from "../../../public/assets/SubContainer.png";
 import Button from "../Button";
 import Image from "../Image";
@@ -14,11 +14,26 @@ import { motion } from "motion/react";
 const cur = [dollar, euro, bitCoin, bit];
 
 const HeroBnnr = () => {
+  const [val, setVal] = useState("");
+  const [addVal, setAddval] = useState("");
+
+  const exchangeValue = () => {
+    return setAddval(val);
+  };
+  const clearValue = () => {
+    setAddval("");
+  };
+  const getValue = (e) => {
+    const get = e.target.value;
+    setVal(get);
+  };
+
   return (
     <div className="flex flex-col items-center w-1/2 relative z-40">
       <motion.div
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{ duration: 2 }}
         className="p-8 relative z-0 rounded-[10px] border-[1px] border-grey-15 bgClr mb-4 bg-grey-10"
       >
@@ -28,6 +43,7 @@ const HeroBnnr = () => {
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
+            viewport={{ once: true }}
             className="flex z-10 items-center bg-grey-11 justify-between w-96 p-3 rounded-xl border-[1px] border-grey-15"
           >
             <div className="flex items-center gap-2">
@@ -43,6 +59,7 @@ const HeroBnnr = () => {
             initial={{ y: 40, opacity: 0 }}
             whileInView={{ y: 0, opacity: 0.4 }}
             transition={{ duration: 1, delay: 0.5 }}
+            viewport={{ once: true }}
             className="flex -z-10 top-13 scale-90 bg-grey-11 opacity-40 absolute items-center justify-between w-96 p-3 rounded-xl border-[1px] border-grey-15"
           >
             <div className="flex items-center gap-2">
@@ -58,6 +75,7 @@ const HeroBnnr = () => {
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 0.3 }}
             transition={{ duration: 1, delay: 0.1 }}
+            viewport={{ once: true }}
             className="flex -z-20 top-25 scale-80 bg-grey-11 opacity-30 absolute items-center justify-between w-96 p-3 rounded-xl border-[1px] border-grey-15"
           >
             <div className="flex items-center gap-2">
@@ -99,23 +117,31 @@ const HeroBnnr = () => {
           <div className="flex items-center">
             <div className="border-r-[1px] w-1/2 border-grey-15 p-5">
               <input
-                className="focus:outline-0 text-[18px] font-medium placeholder:text-[18px]"
+                onChange={getValue}
+                className="focus:outline-0 text-[18px] font-medium w-full placeholder:text-[18px]"
                 placeholder="Currency..."
                 type="text"
                 name="text"
                 id="text"
               />
-              {/* <span className="text-[18px] font-medium">5,0000</span> */}
             </div>
-            <div className=" w-1/2 p-5">
-              <span className="text-[18px] font-medium">12.00</span>
+            <div className="w-1/2 p-5 break-words">
+              <span className="text-[18px] font-medium block break-words">
+                {addVal}
+              </span>
             </div>
           </div>
         </div>
-        <div>
+        <div className="flex items-center gap-4">
           <Button
+            clickFunc={exchangeValue}
             addText={`Exchange`}
-            addClass={`text-green-65 text-[16px] bg-[#22251B] w-full py-2 hover:bg-green-65 hover:text-[#22251B] duration-100`}
+            addClass={`text-green-65 text-[16px] bg-[#22251B] w-full hover:bg-green-65 hover:text-[#22251B] duration-100`}
+          />
+          <Button
+            clickFunc={clearValue}
+            addText={`Clear`}
+            addClass={`bg-green-60 text-[16px] w-full`}
           />
         </div>
       </motion.div>
@@ -136,6 +162,7 @@ const HeroBnnr = () => {
         initial={{ x: -50, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 2, delay: 2 }}
+        viewport={{ once: true }}
         className="absolute -top-12 left-24 w-fit flex z-10 items-center bg-[#22251B] justify-between p-3 rounded-xl border-[1px] border-grey-15"
       >
         <div className="flex items-center gap-3">
@@ -149,6 +176,7 @@ const HeroBnnr = () => {
       <motion.div
         initial={{ x: -200, y: 200, opacity: 0 }}
         whileInView={{ x: 0, y: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{ duration: 1.5, delay: 3 }}
         className="absolute -right-4 top-0 -z-10"
       >

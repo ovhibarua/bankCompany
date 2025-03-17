@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "./Image";
-import logo from "../../public/assets/headerLogo.png";
+import logo from "../../public/assets/case/headerLogo.png";
 import Button from "./Button";
 import cornerImg from "../../public/assets/bigCorner.png";
 

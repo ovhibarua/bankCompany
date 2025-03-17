@@ -1,4 +1,5 @@
 import Container from "./components/Container";
+import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Nav />
       <Container />
+      <Footer />
     </>
   );
 }
